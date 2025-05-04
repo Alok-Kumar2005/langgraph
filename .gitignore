@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+GOOGLE_API_KEY = "AIzaSyDAAyp697rjxAE4gyl7MuLb74ljN0B2XPw"
+
 # C extensions
 *.so
 
