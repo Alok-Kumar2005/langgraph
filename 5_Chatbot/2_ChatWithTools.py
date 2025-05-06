@@ -33,6 +33,7 @@ def tools_router(state: BasicChatbotState):
     
 
 tool_node = ToolNode(tools = tools)
+
 graph = StateGraph(BasicChatbotState)
 graph.add_node("chatbot", chatbot)
 graph.add_node("tools", tool_node)
